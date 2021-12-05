@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;1,100&family=Noto+Serif&family=Outfit:wght@200&family=PT+Serif&display=swap");
+.container-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-image img {
+  width: 250px;
+  border-radius: 7px;
+}
+
+.container-content h2 {
+  color: white;
+  font-family: 'Outfit';
+}
+
+.container-content p {
+  color: #9db7dd;
+  font-family: 'Outfit';
+}
+
+.container-list ul {
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container-list ul li:first-child {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-weight: bold;
+  color: #1acee6;
+  font-family: 'Outfit';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  list-style: none;
+  font-family: 'Outfit';
+}
+
+.container-list ul li:first-child img {
+  padding-right: 8px;
+}
+
+.container-list ul li:last-child {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  color: #c0d8fc;
+  font-family: 'Outfit';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  list-style: none;
+  font-family: 'Outfit';
+}
+
+.container-list ul li:last-child img {
+  padding-right: 8px;
+}
+
+.container-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-author img {
+  width: 35px;
+  border-radius: 100px;
+  border: 1.5px solid white;
+}
+
+.container-author p {
+  color: #9db7dd;
+  padding-left: 15px;
+  font-family: 'Outfit';
+}
+
+.container-author p span {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+.container {
+  background-color: #14253d;
+  border-radius: 20px;
+  padding: 20px;
+  width: 260px;
+}
+
+hr {
+  border-color: #2f415b;
+}
+/*# sourceMappingURL=style.css.map */

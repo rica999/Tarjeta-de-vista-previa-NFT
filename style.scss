@@ -1,0 +1,24 @@
+@import "image";
+@import "textcontent";
+@import "list";
+@import "author";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    display:flex;
+    justify-content: center;
+    height: 100vh; //para que alinie verticalmente (viewport height)
+    align-items: center;
+    font-size: 15px;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 260px;
+}
+hr{
+    border-color: hsl(215, 32%, 27%);
+}

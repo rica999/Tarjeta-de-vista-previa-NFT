@@ -1,0 +1,31 @@
+@mixin listContent($color) {
+    color:$color;
+    font-family: 'Outfit';
+    display: flex;
+    align-content: center;
+    list-style: none;
+    font-family: 'Outfit';
+}
+
+.container-list{
+    ul{
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        li:first-child{
+            justify-content: start;
+            font-weight: bold;
+            @include listContent(rgb(26, 206, 230));
+            img{
+                padding-right: 8px;
+            }
+        }
+        li:last-child{
+            justify-content: end;
+            @include listContent(hsl(216, 91%, 87%));
+            img{
+                padding-right: 8px;
+            }
+        }
+    }
+}

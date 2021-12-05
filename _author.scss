@@ -1,0 +1,18 @@
+.container-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        width: 35px;
+        border-radius: 100px;
+        border: 1.5px solid white;
+    }
+    p{
+        color: hsl(215, 48%, 74%);
+        padding-left: 15px;
+        font-family: 'Outfit';
+        span{
+            color: white;
+        }
+    }
+}
